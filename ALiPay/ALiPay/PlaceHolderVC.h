@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PlaceHolderVC.h
 //  ALiPay
 //
 //  Created by wey on 16/1/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PlaceHolderVC : UIViewController
 
 @end
-

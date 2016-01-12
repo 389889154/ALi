@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		F6B52E131C45063B00C5AF0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E121C45063B00C5AF0D /* main.m */; };
 		F6B52E161C45063B00C5AF0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E151C45063B00C5AF0D /* AppDelegate.m */; };
-		F6B52E191C45063B00C5AF0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E181C45063B00C5AF0D /* ViewController.m */; };
 		F6B52E1C1C45063B00C5AF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B52E1A1C45063B00C5AF0D /* Main.storyboard */; };
 		F6B52E1E1C45063B00C5AF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B52E1D1C45063B00C5AF0D /* Assets.xcassets */; };
 		F6B52E211C45063B00C5AF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B52E1F1C45063B00C5AF0D /* LaunchScreen.storyboard */; };
+		F6B52E291C451A2A00C5AF0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B52E281C451A2A00C5AF0D /* Images.xcassets */; };
+		F6B52E2F1C451AD800C5AF0D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E2E1C451AD800C5AF0D /* RootViewController.m */; };
+		F6B52E361C451E9200C5AF0D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E351C451E9200C5AF0D /* HomeViewController.m */; };
+		F6B52E391C451E9F00C5AF0D /* ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E381C451E9F00C5AF0D /* ServerViewController.m */; };
+		F6B52E3C1C451EAB00C5AF0D /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E3B1C451EAB00C5AF0D /* DiscoverViewController.m */; };
+		F6B52E3F1C451EB400C5AF0D /* AssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E3E1C451EB400C5AF0D /* AssetViewController.m */; };
+		F6B52E431C4523EA00C5AF0D /* DiscoverBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E421C4523EA00C5AF0D /* DiscoverBtn.m */; };
+		F6B52E4B1C45279800C5AF0D /* DiscoverHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E4A1C45279800C5AF0D /* DiscoverHeaderView.m */; };
+		F6B52E4F1C45303B00C5AF0D /* CommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E4E1C45303B00C5AF0D /* CommonTableViewCell.m */; };
+		F6B52E521C45379100C5AF0D /* PlaceHolderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E511C45379100C5AF0D /* PlaceHolderVC.m */; };
+		F6B52E551C453C6300C5AF0D /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E541C453C6300C5AF0D /* CommonTableViewController.m */; };
+		F6B52E581C453D9500C5AF0D /* CommonCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E571C453D9500C5AF0D /* CommonCellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,33 @@
 		F6B52E121C45063B00C5AF0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6B52E141C45063B00C5AF0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6B52E151C45063B00C5AF0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F6B52E171C45063B00C5AF0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F6B52E181C45063B00C5AF0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F6B52E1B1C45063B00C5AF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6B52E1D1C45063B00C5AF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B52E201C45063B00C5AF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6B52E221C45063B00C5AF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B52E281C451A2A00C5AF0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6B52E2D1C451AD800C5AF0D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F6B52E2E1C451AD800C5AF0D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F6B52E341C451E9200C5AF0D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F6B52E351C451E9200C5AF0D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F6B52E371C451E9F00C5AF0D /* ServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerViewController.h; sourceTree = "<group>"; };
+		F6B52E381C451E9F00C5AF0D /* ServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerViewController.m; sourceTree = "<group>"; };
+		F6B52E3A1C451EAB00C5AF0D /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		F6B52E3B1C451EAB00C5AF0D /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		F6B52E3D1C451EB400C5AF0D /* AssetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetViewController.h; sourceTree = "<group>"; };
+		F6B52E3E1C451EB400C5AF0D /* AssetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetViewController.m; sourceTree = "<group>"; };
+		F6B52E411C4523EA00C5AF0D /* DiscoverBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverBtn.h; sourceTree = "<group>"; };
+		F6B52E421C4523EA00C5AF0D /* DiscoverBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverBtn.m; sourceTree = "<group>"; };
+		F6B52E491C45279800C5AF0D /* DiscoverHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverHeaderView.h; sourceTree = "<group>"; };
+		F6B52E4A1C45279800C5AF0D /* DiscoverHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverHeaderView.m; sourceTree = "<group>"; };
+		F6B52E4D1C45303B00C5AF0D /* CommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewCell.h; sourceTree = "<group>"; };
+		F6B52E4E1C45303B00C5AF0D /* CommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewCell.m; sourceTree = "<group>"; };
+		F6B52E501C45379100C5AF0D /* PlaceHolderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolderVC.h; sourceTree = "<group>"; };
+		F6B52E511C45379100C5AF0D /* PlaceHolderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderVC.m; sourceTree = "<group>"; };
+		F6B52E531C453C6300C5AF0D /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		F6B52E541C453C6300C5AF0D /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		F6B52E561C453D9500C5AF0D /* CommonCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCellModel.h; sourceTree = "<group>"; };
+		F6B52E571C453D9500C5AF0D /* CommonCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +90,7 @@
 		F6B52E101C45063B00C5AF0D /* ALiPay */ = {
 			isa = PBXGroup;
 			children = (
-				F6B52E141C45063B00C5AF0D /* AppDelegate.h */,
-				F6B52E151C45063B00C5AF0D /* AppDelegate.m */,
-				F6B52E171C45063B00C5AF0D /* ViewController.h */,
-				F6B52E181C45063B00C5AF0D /* ViewController.m */,
-				F6B52E1A1C45063B00C5AF0D /* Main.storyboard */,
-				F6B52E1D1C45063B00C5AF0D /* Assets.xcassets */,
-				F6B52E1F1C45063B00C5AF0D /* LaunchScreen.storyboard */,
-				F6B52E221C45063B00C5AF0D /* Info.plist */,
+				F6B52E2A1C451A9300C5AF0D /* Classes */,
 				F6B52E111C45063B00C5AF0D /* Supporting Files */,
 			);
 			path = ALiPay;
@@ -74,9 +99,117 @@
 		F6B52E111C45063B00C5AF0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F6B52E281C451A2A00C5AF0D /* Images.xcassets */,
+				F6B52E1A1C45063B00C5AF0D /* Main.storyboard */,
+				F6B52E1D1C45063B00C5AF0D /* Assets.xcassets */,
+				F6B52E1F1C45063B00C5AF0D /* LaunchScreen.storyboard */,
+				F6B52E221C45063B00C5AF0D /* Info.plist */,
 				F6B52E121C45063B00C5AF0D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6B52E2A1C451A9300C5AF0D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E4C1C45301C00C5AF0D /* Common */,
+				F6B52E2B1C451A9D00C5AF0D /* AppDelegate */,
+				F6B52E2C1C451AAF00C5AF0D /* Main */,
+				F6B52E301C451CCE00C5AF0D /* Home */,
+				F6B52E311C451CE800C5AF0D /* Server */,
+				F6B52E321C451D0500C5AF0D /* Discover */,
+				F6B52E331C451D1000C5AF0D /* Assets */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F6B52E2B1C451A9D00C5AF0D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E141C45063B00C5AF0D /* AppDelegate.h */,
+				F6B52E151C45063B00C5AF0D /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F6B52E2C1C451AAF00C5AF0D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E501C45379100C5AF0D /* PlaceHolderVC.h */,
+				F6B52E511C45379100C5AF0D /* PlaceHolderVC.m */,
+				F6B52E2D1C451AD800C5AF0D /* RootViewController.h */,
+				F6B52E2E1C451AD800C5AF0D /* RootViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F6B52E301C451CCE00C5AF0D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E341C451E9200C5AF0D /* HomeViewController.h */,
+				F6B52E351C451E9200C5AF0D /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F6B52E311C451CE800C5AF0D /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E371C451E9F00C5AF0D /* ServerViewController.h */,
+				F6B52E381C451E9F00C5AF0D /* ServerViewController.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		F6B52E321C451D0500C5AF0D /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E481C45277000C5AF0D /* DiscoverHeaderView */,
+				F6B52E401C4523D200C5AF0D /* DiscoverBtn */,
+				F6B52E3A1C451EAB00C5AF0D /* DiscoverViewController.h */,
+				F6B52E3B1C451EAB00C5AF0D /* DiscoverViewController.m */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		F6B52E331C451D1000C5AF0D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E3D1C451EB400C5AF0D /* AssetViewController.h */,
+				F6B52E3E1C451EB400C5AF0D /* AssetViewController.m */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F6B52E401C4523D200C5AF0D /* DiscoverBtn */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E411C4523EA00C5AF0D /* DiscoverBtn.h */,
+				F6B52E421C4523EA00C5AF0D /* DiscoverBtn.m */,
+			);
+			name = DiscoverBtn;
+			sourceTree = "<group>";
+		};
+		F6B52E481C45277000C5AF0D /* DiscoverHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E491C45279800C5AF0D /* DiscoverHeaderView.h */,
+				F6B52E4A1C45279800C5AF0D /* DiscoverHeaderView.m */,
+			);
+			name = DiscoverHeaderView;
+			sourceTree = "<group>";
+		};
+		F6B52E4C1C45301C00C5AF0D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F6B52E4D1C45303B00C5AF0D /* CommonTableViewCell.h */,
+				F6B52E4E1C45303B00C5AF0D /* CommonTableViewCell.m */,
+				F6B52E531C453C6300C5AF0D /* CommonTableViewController.h */,
+				F6B52E541C453C6300C5AF0D /* CommonTableViewController.m */,
+				F6B52E561C453D9500C5AF0D /* CommonCellModel.h */,
+				F6B52E571C453D9500C5AF0D /* CommonCellModel.m */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6B52E211C45063B00C5AF0D /* LaunchScreen.storyboard in Resources */,
+				F6B52E291C451A2A00C5AF0D /* Images.xcassets in Resources */,
 				F6B52E1E1C45063B00C5AF0D /* Assets.xcassets in Resources */,
 				F6B52E1C1C45063B00C5AF0D /* Main.storyboard in Resources */,
 			);
@@ -149,9 +283,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6B52E191C45063B00C5AF0D /* ViewController.m in Sources */,
+				F6B52E521C45379100C5AF0D /* PlaceHolderVC.m in Sources */,
 				F6B52E161C45063B00C5AF0D /* AppDelegate.m in Sources */,
+				F6B52E551C453C6300C5AF0D /* CommonTableViewController.m in Sources */,
+				F6B52E3C1C451EAB00C5AF0D /* DiscoverViewController.m in Sources */,
+				F6B52E4F1C45303B00C5AF0D /* CommonTableViewCell.m in Sources */,
+				F6B52E4B1C45279800C5AF0D /* DiscoverHeaderView.m in Sources */,
+				F6B52E3F1C451EB400C5AF0D /* AssetViewController.m in Sources */,
+				F6B52E431C4523EA00C5AF0D /* DiscoverBtn.m in Sources */,
 				F6B52E131C45063B00C5AF0D /* main.m in Sources */,
+				F6B52E2F1C451AD800C5AF0D /* RootViewController.m in Sources */,
+				F6B52E361C451E9200C5AF0D /* HomeViewController.m in Sources */,
+				F6B52E581C453D9500C5AF0D /* CommonCellModel.m in Sources */,
+				F6B52E391C451E9F00C5AF0D /* ServerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ALiPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yukon.ALiPay;
@@ -272,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ALiPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yukon.ALiPay;
@@ -298,6 +444,7 @@
 				F6B52E271C45063B00C5AF0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
