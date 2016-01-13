@@ -6,8 +6,7 @@
 //  Copyright © 2016年 wey. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface AssetViewController : UIViewController
+#import "CommonTableViewController.h"
+@interface AssetViewController : CommonTableViewController
 
 @end

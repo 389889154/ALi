@@ -11,6 +11,7 @@
 #import "CommonTableViewCell.h"
 #import "PlaceHolderVC.h"
 #import "CommonCellModel.h"
+
 @interface DiscoverViewController ()
 @property (nonatomic, strong) NSArray *headerDataArr;
 @end
@@ -19,13 +20,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+  
+    
     [self setupHeader];
-    self.cellClass = [CommonTableViewCell class];
-    self.sectionNumber = self.dataArray.count;
-    
-      [self setupModel];
-    
-    NSLog(@"%@",[[UITableViewCell class] description]);
+    [self setupModel];
 }
 
 // 设置头视图
@@ -39,9 +37,8 @@
     self.headerDataArr = @[item1,item2,item3,item4];
     DiscoverHeaderView *headerView = [[DiscoverHeaderView alloc]init];
     headerView.btnModels = self.headerDataArr;
-    
     CGRect temp = headerView.frame;
-    temp.size.height = 90.f;
+    temp.size.height = 100.f;
     headerView.frame = temp;
     
     __weak typeof(self) weakSelf = self;
@@ -63,7 +60,12 @@
      CommonCellModel *item3 = [[CommonCellModel alloc]initWithTitle:@"快的打车" imageName:@"adw_icon_taxi_normal" targetClass:[PlaceHolderVC class]];
      CommonCellModel *item4 = [[CommonCellModel alloc]initWithTitle:@"我的朋友" imageName:@"adw_icon_contact_normal" targetClass:[PlaceHolderVC class]];
     
+    // 先注册Cell
+    self.cellClass = [CommonTableViewCell class];
+    
     self.dataArray = @[@[item1,item2,item3],@[item4]];
+
+    self.sectionNumber = self.dataArray.count;
 }
 
 #pragma mark -- tableView DataSource
@@ -77,15 +79,7 @@
     [self.navigationController showViewController:vc sender:nil];
 }
 
-- (CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    
-    return 20.f;
-}
 
-- (CGFloat) tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
-    
-    return (section == self.dataArray.count -1) ? 10 : 0;
-}
 
 
 

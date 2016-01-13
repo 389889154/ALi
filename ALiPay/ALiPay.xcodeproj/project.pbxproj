@@ -24,6 +24,13 @@
 		F6B52E521C45379100C5AF0D /* PlaceHolderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E511C45379100C5AF0D /* PlaceHolderVC.m */; };
 		F6B52E551C453C6300C5AF0D /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E541C453C6300C5AF0D /* CommonTableViewController.m */; };
 		F6B52E581C453D9500C5AF0D /* CommonCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B52E571C453D9500C5AF0D /* CommonCellModel.m */; };
+		F6DA79FF1C466877001B5AC6 /* AssetheaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DA79FE1C466877001B5AC6 /* AssetheaderView.m */; };
+		F6DA7A021C466896001B5AC6 /* AssetheaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6DA7A011C466896001B5AC6 /* AssetheaderView.xib */; };
+		F6DA7A041C46776D001B5AC6 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6DA7A031C46776D001B5AC6 /* appIcon.png */; };
+		F6DA7A081C468DD3001B5AC6 /* ServerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DA7A061C468DD3001B5AC6 /* ServerTableViewCell.m */; };
+		F6DA7A091C468DD3001B5AC6 /* ServerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6DA7A071C468DD3001B5AC6 /* ServerTableViewCell.xib */; };
+		F6DA7A0D1C469EFC001B5AC6 /* ServerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DA7A0B1C469EFC001B5AC6 /* ServerCollectionViewCell.m */; };
+		F6DA7A0E1C469EFC001B5AC6 /* ServerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6DA7A0C1C469EFC001B5AC6 /* ServerCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +65,16 @@
 		F6B52E541C453C6300C5AF0D /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
 		F6B52E561C453D9500C5AF0D /* CommonCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCellModel.h; sourceTree = "<group>"; };
 		F6B52E571C453D9500C5AF0D /* CommonCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCellModel.m; sourceTree = "<group>"; };
+		F6DA79FD1C466877001B5AC6 /* AssetheaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetheaderView.h; sourceTree = "<group>"; };
+		F6DA79FE1C466877001B5AC6 /* AssetheaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetheaderView.m; sourceTree = "<group>"; };
+		F6DA7A011C466896001B5AC6 /* AssetheaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssetheaderView.xib; sourceTree = "<group>"; };
+		F6DA7A031C46776D001B5AC6 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		F6DA7A051C468DD3001B5AC6 /* ServerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerTableViewCell.h; sourceTree = "<group>"; };
+		F6DA7A061C468DD3001B5AC6 /* ServerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerTableViewCell.m; sourceTree = "<group>"; };
+		F6DA7A071C468DD3001B5AC6 /* ServerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerTableViewCell.xib; sourceTree = "<group>"; };
+		F6DA7A0A1C469EFC001B5AC6 /* ServerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCollectionViewCell.h; sourceTree = "<group>"; };
+		F6DA7A0B1C469EFC001B5AC6 /* ServerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCollectionViewCell.m; sourceTree = "<group>"; };
+		F6DA7A0C1C469EFC001B5AC6 /* ServerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				F6B52E281C451A2A00C5AF0D /* Images.xcassets */,
+				F6DA7A031C46776D001B5AC6 /* appIcon.png */,
 				F6B52E1A1C45063B00C5AF0D /* Main.storyboard */,
 				F6B52E1D1C45063B00C5AF0D /* Assets.xcassets */,
 				F6B52E1F1C45063B00C5AF0D /* LaunchScreen.storyboard */,
@@ -157,6 +175,12 @@
 			children = (
 				F6B52E371C451E9F00C5AF0D /* ServerViewController.h */,
 				F6B52E381C451E9F00C5AF0D /* ServerViewController.m */,
+				F6DA7A051C468DD3001B5AC6 /* ServerTableViewCell.h */,
+				F6DA7A061C468DD3001B5AC6 /* ServerTableViewCell.m */,
+				F6DA7A071C468DD3001B5AC6 /* ServerTableViewCell.xib */,
+				F6DA7A0A1C469EFC001B5AC6 /* ServerCollectionViewCell.h */,
+				F6DA7A0B1C469EFC001B5AC6 /* ServerCollectionViewCell.m */,
+				F6DA7A0C1C469EFC001B5AC6 /* ServerCollectionViewCell.xib */,
 			);
 			name = Server;
 			sourceTree = "<group>";
@@ -175,6 +199,7 @@
 		F6B52E331C451D1000C5AF0D /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				F6DA79FC1C466825001B5AC6 /* AssetsHeaderView */,
 				F6B52E3D1C451EB400C5AF0D /* AssetViewController.h */,
 				F6B52E3E1C451EB400C5AF0D /* AssetViewController.m */,
 			);
@@ -210,6 +235,16 @@
 				F6B52E571C453D9500C5AF0D /* CommonCellModel.m */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		F6DA79FC1C466825001B5AC6 /* AssetsHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA79FD1C466877001B5AC6 /* AssetheaderView.h */,
+				F6DA79FE1C466877001B5AC6 /* AssetheaderView.m */,
+				F6DA7A011C466896001B5AC6 /* AssetheaderView.xib */,
+			);
+			name = AssetsHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +304,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DA7A091C468DD3001B5AC6 /* ServerTableViewCell.xib in Resources */,
 				F6B52E211C45063B00C5AF0D /* LaunchScreen.storyboard in Resources */,
+				F6DA7A021C466896001B5AC6 /* AssetheaderView.xib in Resources */,
+				F6DA7A0E1C469EFC001B5AC6 /* ServerCollectionViewCell.xib in Resources */,
+				F6DA7A041C46776D001B5AC6 /* appIcon.png in Resources */,
 				F6B52E291C451A2A00C5AF0D /* Images.xcassets in Resources */,
 				F6B52E1E1C45063B00C5AF0D /* Assets.xcassets in Resources */,
 				F6B52E1C1C45063B00C5AF0D /* Main.storyboard in Resources */,
@@ -283,7 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DA79FF1C466877001B5AC6 /* AssetheaderView.m in Sources */,
+				F6DA7A081C468DD3001B5AC6 /* ServerTableViewCell.m in Sources */,
 				F6B52E521C45379100C5AF0D /* PlaceHolderVC.m in Sources */,
+				F6DA7A0D1C469EFC001B5AC6 /* ServerCollectionViewCell.m in Sources */,
 				F6B52E161C45063B00C5AF0D /* AppDelegate.m in Sources */,
 				F6B52E551C453C6300C5AF0D /* CommonTableViewController.m in Sources */,
 				F6B52E3C1C451EAB00C5AF0D /* DiscoverViewController.m in Sources */,

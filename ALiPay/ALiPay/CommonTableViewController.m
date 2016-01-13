@@ -30,6 +30,8 @@
     
     self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.showsHorizontalScrollIndicator = NO;
+//    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.separatorColor = [UIColor darkGrayColor];
     
     
 }
@@ -37,9 +39,10 @@
 - (void)setDataArray:(NSArray *)dataArray {
     
     _dataArray = dataArray;
+    ///  刷新
+    [self.tableView reloadData];
     // [self.cellClass description]  就是类名
     [self.tableView registerClass:self.cellClass forCellReuseIdentifier:[self.cellClass description]];
-     [self.tableView reloadData];
    
 }
 
@@ -70,6 +73,40 @@
     }
     return cell;
     
+}
+
+// section 高度
+- (CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    
+    return 20.f;
+}
+
+- (CGFloat) tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+
+    return (section == self.dataArray.count -1) ? 10 : 0;
+}
+
+#pragma mark --- 自定义分割线
+- (void) tableView:(UITableView *)tableView willDisplayCell:(nonnull UITableViewCell *)cell forRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    
+    UIEdgeInsets insets = UIEdgeInsetsMake(0, 5, 0, 5);
+    
+    // 三个方法并用，实现自定义分割线效果
+    
+    if ([cell respondsToSelector:@selector(setSeparatorInset:)]) {
+        cell.separatorInset = insets;
+    }
+    
+    
+    if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
+        [cell setLayoutMargins:insets];
+    }
+    
+    
+    if([cell respondsToSelector:@selector(setPreservesSuperviewLayoutMargins:)]){
+        [cell setPreservesSuperviewLayoutMargins:NO];
+    }
+
 }
 
 #pragma mark --- 刷新方法
